@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.yupi.autoreply.api.zsxq.ZsxqApiTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.254 s <<< FAILURE! - in com.yupi.autoreply.api.zsxq.ZsxqApiTest
+answer  Time elapsed: 0.154 s  <<< ERROR!
+cn.hutool.json.JSONException: Mismatched meta and head at 107 [character 6 line 7]
+	at com.yupi.autoreply.api.zsxq.ZsxqApiTest.answer(ZsxqApiTest.java:45)
+
+listTopics  Time elapsed: 0.1 s  <<< ERROR!
+cn.hutool.json.JSONException: Mismatched meta and head at 107 [character 6 line 7]
+	at com.yupi.autoreply.api.zsxq.ZsxqApiTest.listTopics(ZsxqApiTest.java:33)
+

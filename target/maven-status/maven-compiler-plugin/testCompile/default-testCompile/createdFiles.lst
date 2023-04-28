@@ -1,0 +1,3 @@
+com\yupi\autoreply\api\openai\OpenAiApiTest.class
+com\yupi\autoreply\api\zsxq\ZsxqApiTest.class
+com\yupi\autoreply\MainApplicationTests.class

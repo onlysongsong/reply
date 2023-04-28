@@ -1,0 +1,92 @@
+{
+  "groups": [
+    {
+      "name": "openai",
+      "type": "com.yupi.autoreply.config.OpenAiConfig",
+      "sourceType": "com.yupi.autoreply.config.OpenAiConfig"
+    },
+    {
+      "name": "task",
+      "type": "com.yupi.autoreply.config.TaskConfig",
+      "sourceType": "com.yupi.autoreply.config.TaskConfig"
+    },
+    {
+      "name": "task.concurrent",
+      "type": "com.yupi.autoreply.config.TaskConfig$ConcurrentConfig",
+      "sourceType": "com.yupi.autoreply.config.TaskConfig"
+    },
+    {
+      "name": "zsxq",
+      "type": "com.yupi.autoreply.config.ZsxqConfig",
+      "sourceType": "com.yupi.autoreply.config.ZsxqConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "openai.api-key",
+      "type": "java.lang.String",
+      "description": "apiKey",
+      "sourceType": "com.yupi.autoreply.config.OpenAiConfig"
+    },
+    {
+      "name": "openai.apiKey",
+      "type": "java.lang.String",
+      "description": "Description for openai.apiKey."
+    },
+    {
+      "name": "openai.model",
+      "type": "java.lang.String",
+      "description": "Description for openai.model.",
+      "sourceType": "com.yupi.autoreply.config.OpenAiConfig"
+    },
+    {
+      "name": "task.concurrent.enable",
+      "type": "java.lang.Boolean",
+      "description": "Description for task.concurrent.enable.",
+      "sourceType": "com.yupi.autoreply.config.TaskConfig$ConcurrentConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "task.concurrent.size",
+      "type": "java.lang.Integer",
+      "description": "Description for task.concurrent.size.",
+      "sourceType": "com.yupi.autoreply.config.TaskConfig$ConcurrentConfig"
+    },
+    {
+      "name": "task.cron",
+      "type": "java.lang.String",
+      "description": "Description for task.cron."
+    },
+    {
+      "name": "task.list",
+      "type": "java.util.List<com.yupi.autoreply.model.TaskListItem>",
+      "description": "Description for task.list.",
+      "sourceType": "com.yupi.autoreply.config.TaskConfig"
+    },
+    {
+      "name": "zsxq.cookie",
+      "type": "java.lang.String",
+      "description": "Description for zsxq.cookie.",
+      "sourceType": "com.yupi.autoreply.config.ZsxqConfig"
+    },
+    {
+      "name": "zsxq.group-id",
+      "type": "java.lang.String",
+      "description": "星球 id",
+      "sourceType": "com.yupi.autoreply.config.ZsxqConfig"
+    },
+    {
+      "name": "zsxq.groupId",
+      "type": "java.lang.String",
+      "description": "Description for zsxq.groupId."
+    },
+    {
+      "name": "zsxq.silenced",
+      "type": "java.lang.Boolean",
+      "description": "Description for zsxq.silenced.",
+      "sourceType": "com.yupi.autoreply.config.ZsxqConfig",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

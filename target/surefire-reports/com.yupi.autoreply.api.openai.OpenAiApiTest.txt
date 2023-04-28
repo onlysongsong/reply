@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.yupi.autoreply.api.openai.OpenAiApiTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 25.367 s <<< FAILURE! - in com.yupi.autoreply.api.openai.OpenAiApiTest
+createCompletion  Time elapsed: 22.186 s  <<< ERROR!
+cn.hutool.core.io.IORuntimeException: ConnectException: Connection timed out: connect
+	at com.yupi.autoreply.api.openai.OpenAiApiTest.createCompletion(OpenAiApiTest.java:32)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.yupi.autoreply.api.openai.OpenAiApiTest.createCompletion(OpenAiApiTest.java:32)
+
