@@ -30,7 +30,7 @@ public class MainController {
         }*/
         String result = null;
         try {
-            
+            message = "你好，你是谁，你会干什么？";
             result = AnswererFactory.createAnswerer("openai").doAnswer(message);
             if(result != null){
                 return result;
